@@ -23,7 +23,7 @@ Final_Project/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/snirpro/Asia.git
 cd Final_Project
 ```
 
@@ -37,7 +37,7 @@ We provide a dump file called `asia_project.sql` which contains the full databas
 Run this command in your terminal (make sure `asia_project.sql` is in your current directory):
 
 ```bash
-mysql -u root -p < asia_project.sql
+..\final_project\backend mysql -u root -p < asia_project.sql
 ```
 
 When prompted, enter your MySQL password (`1234` if you used the default).
@@ -133,8 +133,3 @@ Now you should have:
 
 Enjoy building and customizing your hotel booking system!
 
----
-
-## 📝 License
-MIT License
-```
